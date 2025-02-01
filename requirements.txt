@@ -1,0 +1,8 @@
+Flask
+sqlite3
+nltk
+
+
+
+
+
