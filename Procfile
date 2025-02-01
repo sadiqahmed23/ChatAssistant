@@ -1,1 +1,1 @@
-web: gunicorn chat_assistant:app
+web: python app.py --port=5001
