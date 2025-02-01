@@ -12,6 +12,13 @@ def execute_query(query):
     conn.close()
     return result
 
+@app.route("/")
+def home():
+    return "Welcome to the Chat Assistant!"
+
+@app.route("/query")
+def query():
+    return "This is the query page."
 # Route to handle chat queries
 @app.route('/chat', methods=['POST'])
 def chat():
